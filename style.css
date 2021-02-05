@@ -5,7 +5,6 @@ body{
     justify-content: center;
     background-image: url('images/bg-pattern.svg');
     background-repeat:no-repeat;
-    background-size: cover;
 }
 :root{
     --main-color :  hsl(227, 35%, 25%);
@@ -14,7 +13,7 @@ body{
     max-width: 1400px;
 }
 header{
-    margin-top: 100px;
+    margin-top: 70px;
     padding: 50px 0;
     text-align: center;
     background-image: url('images/pattern-circles.svg');
@@ -38,6 +37,7 @@ aside{
     font-size: 15px;
     color: hsl(225, 20%, 60%);
     min-width: 500px;
+    margin-top: 15px;
 }
 .tarrif{
     display: flex;
